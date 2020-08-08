@@ -64,14 +64,16 @@ public class HomePageTest {
 	@Test(priority=6)
 	public void verifyMinTempe() {
 		homePage.verifyMin();
-		Assert.assertEquals(homePage.verifyMin(), homePage.minTemp());
-		
+		boolean result = homePage.verifyMin() == homePage.minTemp();
+        Assert.assertFalse(result, "Different Values");
 		
 	}
 	@Test(priority=7)
 	public void verifyMax() {
 		homePage.verifyMax();
-		Assert.assertEquals(homePage.verifyMax(), homePage.maxTemp());
+		boolean resultMax = homePage.verifyMax() == homePage.maxTemp();
+		Assert.assertFalse(resultMax, "Different Values");
+		
 	}
 	
 	

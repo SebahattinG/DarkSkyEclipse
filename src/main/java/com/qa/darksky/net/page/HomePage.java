@@ -31,7 +31,7 @@ public class HomePage extends BasePage{
 		}
 	By todayClick= By.xpath("//a[@data-day='0']");
 	By temperature= By.xpath("(//div[@class='temps'])[2]//span//span");
-	By lowTemp=By.xpath("//a[@data-day=‘0’]//span[@class=‘minTemp’]");
+	By lowTemp=By.xpath("//a[@data-day='0']//span[@class='minTemp']");
 	By highTemp= By.xpath("//span[@class='high-temp-text']");
 	By maxTemp= By.xpath("//a[@data-day='0']//span[@class='maxTemp']");
 

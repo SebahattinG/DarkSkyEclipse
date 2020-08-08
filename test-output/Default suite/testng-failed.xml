@@ -5,7 +5,6 @@
     <classes>
       <class name="com.qa.darksky.net.test.HomePageTest">
         <methods>
-          <include name="verifyMax"/>
           <include name="Setup"/>
           <include name="verifyMinTempe"/>
           <include name="tearDown"/>
